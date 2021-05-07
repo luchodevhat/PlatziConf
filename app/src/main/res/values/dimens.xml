@@ -1,2 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <dimen name="altoLogoPlatzit">45dp</dimen>
+    <dimen name="toolBarAlto">30dp</dimen>
+    <dimen name="cardcornerRadius">4dp</dimen>
+    <dimen name="altoImageViewHome">150dp</dimen>
+    <dimen name="marginViewHome">20dp</dimen>
+    <dimen name="textMargin">10dp</dimen>
+
+    <dimen name="tamanoTitulo">20sp</dimen>
+</resources>

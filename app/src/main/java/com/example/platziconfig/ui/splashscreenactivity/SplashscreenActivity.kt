@@ -1,4 +1,4 @@
-package com.example.platziconfig.ui
+package com.example.platziconfig.ui.splashscreenactivity
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
