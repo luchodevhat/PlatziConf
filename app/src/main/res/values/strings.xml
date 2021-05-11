@@ -17,4 +17,8 @@ Porque en esta versión todo girará al rededor de la pregunta: ¿Qué habilidad
         \u0009 &#8226; Lugar: Centro Cultural Roberto Cantoral.\n
         \u0009 &#8226; Dirección: Puente Xoco s/n, Xoco, 03330 Ciudad de México, CDMX.</string>
 
+    <string name="ScheduleAmPm">A.M</string>
+    <string name="ScheduleExpositorTitulo">Titulo Conferencia</string>
+    <string name="scheduleExpositorNombre">Nombre Expositor</string>
+
 </resources>

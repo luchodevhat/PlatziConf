@@ -106,7 +106,9 @@
                         android:textSize="@dimen/textSize"
                         android:layout_marginLeft="@dimen/marginViewHome"
                         android:layout_marginRight="@dimen/marginViewHome"
-                        android:layout_marginBottom="@dimen/marginViewHome"/>
+                        android:layout_marginBottom="@dimen/marginViewHome"
+                        />
+
 
 
 
