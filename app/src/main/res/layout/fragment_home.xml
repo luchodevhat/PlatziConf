@@ -98,6 +98,15 @@
                         android:textColor="@color/colorAccent"
                         android:textStyle="bold"
                         android:layout_margin="@dimen/textMarginHome"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/inicio_frag_tv_info_resp"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="@dimen/textSize"
+                        android:layout_marginLeft="@dimen/marginViewHome"
+                        android:layout_marginRight="@dimen/marginViewHome"
+                        android:layout_marginBottom="@dimen/marginViewHome"/>
 
 
 
