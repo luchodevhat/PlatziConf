@@ -17,4 +17,14 @@
     <dimen name="scheduleTitleConferencia">25sp</dimen>
     <dimen name="scheduleTitleNombre">20sp</dimen>
     <dimen name="marginSchedule">10dp</dimen>
+    <dimen name="marginScheduleDialog">20dp</dimen>
+
+    <dimen name="cardRadius">4dp</dimen>
+    <dimen name="cardEelevation">4dp</dimen>
+    <dimen name="cardMargin">15dp</dimen>
+
+    <dimen name="textSizeSpeaker">25dp</dimen>
+    <dimen name="textSizeJobSpeaker">20dp</dimen>
+    <dimen name="marginTextJob">1dp</dimen>
+
 </resources>
