@@ -36,16 +36,7 @@
                         android:layout_height="match_parent"
                         android:background="@color/colorPrimary"
                         android:alpha="0.5"/>
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="@string/ScheduleExpositorTitulo"
-                        android:textSize="@dimen/scheduleTitleConferencia"
-                        android:layout_marginLeft="@dimen/marginSchedule"
-                        android:textStyle="bold"
-                        android:textColor="@color/colorAccent"
-                        android:layout_centerInParent="true"
-                        android:gravity="center"/>
+
                 </RelativeLayout>
                 <androidx.cardview.widget.CardView
                     android:layout_width="match_parent"
@@ -62,37 +53,82 @@
                             android:id="@+id/tvInfoConfHour"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="00:00"
-                            android:textSize="@dimen/textSize"
-                            android:textColor="@color/colorPrimary"
-                            android:gravity="center"/>
-                        <TextView
-                            android:id="@+id/tvInfoConfSpeaker"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:text="Nombre expositor"
+                            android:text="@string/scheduleFragmentPlaceName"
                             android:textSize="@dimen/scheduleTitleAmPm"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:layout_margin="@dimen/textMarginHome"
                             android:textStyle="bold"
-                            android:textColor="@color/colorPrimary"
                             android:gravity="center"/>
 
                         <TextView
-                            android:id="@+id/tvInfoConfTag"
+                            android:id="@+id/tvPlaceUbication"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="tag"
-                            android:textSize="@dimen/textSize"
+                            android:text="@string/scheduleLocation"
+                            android:textSize="@dimen/textSizeJobSpeaker"
+                            android:layout_margin="@dimen/textMarginHome"
                             android:textColor="@color/colorPrimary"
-                            android:gravity="center"/>
+                            android:drawableStart="@drawable/ic_icon_place_24"
+                            android:drawablePadding="@dimen/scheduleMarginIcon"
+                            android:drawableTint="@color/colorPrimaryDark"
+                            />
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/marginHeightHome"
+                            android:background="@color/colorPrimaryDark"
+                            android:layout_marginLeft="@dimen/marginViewHome"
+                            android:layout_marginRight="@dimen/marginViewHome"
+                            android:layout_marginBottom="@dimen/marginViewHome"
+                            android:layout_marginTop="@dimen/marginViewHome"/>
                         <TextView
-                            android:id="@+id/tvInfoConfInfo"
+                            android:id="@+id/tvPhoneNumber"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="Aqui se dara informacion sobre la conferencia"
-                            android:layout_marginTop="@dimen/marginScheduleDialog"
-                            android:textSize="@dimen/textSize"
+                            android:text="@string/schedulePhoneNumber"
+                            android:textSize="@dimen/textSizeJobSpeaker"
+                            android:layout_margin="@dimen/textMarginHome"
                             android:textColor="@color/colorPrimary"
-                            android:gravity="center"/>
+                            android:drawableStart="@drawable/ic_icon_local_phone_24"
+                            android:drawablePadding="@dimen/scheduleMarginIcon"
+                            android:drawableTint="@color/colorPrimaryDark"
+                            />
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/marginHeightHome"
+                            android:background="@color/colorPrimaryDark"
+                            android:layout_marginLeft="@dimen/marginViewHome"
+                            android:layout_marginRight="@dimen/marginViewHome"
+                            android:layout_marginBottom="@dimen/marginViewHome"
+                            android:layout_marginTop="@dimen/marginViewHome"/>
+                        <TextView
+                            android:id="@+id/tvWebSite"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/scheduleWebSite"
+                            android:textSize="@dimen/textSizeJobSpeaker"
+                            android:layout_margin="@dimen/textMarginHome"
+                            android:textColor="@color/colorPrimary"
+                            android:drawableStart="@drawable/ic_icon_web_24"
+                            android:drawablePadding="@dimen/scheduleMarginIcon"
+                            android:drawableTint="@color/colorPrimaryDark"
+                            />
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/marginHeightHome"
+                            android:background="@color/colorPrimaryDark"
+                            android:layout_marginLeft="@dimen/marginViewHome"
+                            android:layout_marginRight="@dimen/marginViewHome"
+                            android:layout_marginBottom="@dimen/marginViewHome"
+                            android:layout_marginTop="@dimen/marginViewHome"/>
+
+
+
+
+
+
+
+
+
 
 
                     </LinearLayout>

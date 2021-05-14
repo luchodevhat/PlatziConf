@@ -20,5 +20,16 @@ Porque en esta versión todo girará al rededor de la pregunta: ¿Qué habilidad
     <string name="ScheduleAmPm">A.M</string>
     <string name="ScheduleExpositorTitulo">Titulo Conferencia</string>
     <string name="scheduleExpositorNombre">Nombre Expositor</string>
+    <string name="scheduleFragmentPlaceName">Nombre del lugar</string>
+    <string name="scheduleLocation">Ubicacion del lugar</string>
+    <string name="schedulePhoneNumber">Telefono del lugar</string>
+    <string name="scheduleWebSite">Sitio del lugar</string>
+
+    <string name="speakerExpositorNombre">Nombre expositor</string>
+    <string name="speakerJobTitle">Job Title</string>
+    <string name="speakerJob">Trabajo</string>
+    <string name="speakerLoreIp">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</string>
+
+
 
 </resources>

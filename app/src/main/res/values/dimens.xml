@@ -18,6 +18,7 @@
     <dimen name="scheduleTitleNombre">20sp</dimen>
     <dimen name="marginSchedule">10dp</dimen>
     <dimen name="marginScheduleDialog">20dp</dimen>
+    <dimen name="scheduleMarginIcon">8dp</dimen>
 
     <dimen name="cardRadius">4dp</dimen>
     <dimen name="cardEelevation">4dp</dimen>
@@ -26,5 +27,9 @@
     <dimen name="textSizeSpeaker">25dp</dimen>
     <dimen name="textSizeJobSpeaker">20dp</dimen>
     <dimen name="marginTextJob">1dp</dimen>
+    <dimen name="speakerImageProfile">150dp</dimen>
+    <dimen name="speakerTwitterImage">30dp</dimen>
+
+
 
 </resources>

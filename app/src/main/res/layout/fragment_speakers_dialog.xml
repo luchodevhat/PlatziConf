@@ -27,25 +27,12 @@
                     android:layout_width="match_parent"
                     android:layout_height="200dp">
                     <ImageView
-                        android:layout_width="50dp"
-                        android:layout_height="100dp"
+                        android:layout_width="@dimen/speakerImageProfile"
+                        android:layout_height="@dimen/speakerImageProfile"
+                        android:layout_centerInParent="true"
                         android:src="@drawable/ic_profile"
                         android:scaleType="centerCrop"/>
-                    <View
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:background="@color/colorPrimary"
-                        android:alpha="0.5"/>
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="@string/ScheduleExpositorTitulo"
-                        android:textSize="@dimen/scheduleTitleConferencia"
-                        android:layout_marginLeft="@dimen/marginSchedule"
-                        android:textStyle="bold"
-                        android:textColor="@color/colorAccent"
-                        android:layout_centerInParent="true"
-                        android:gravity="center"/>
+
                 </RelativeLayout>
                 <androidx.cardview.widget.CardView
                     android:layout_width="match_parent"
@@ -58,40 +45,52 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/speakerExpositorNombre"
+                            android:textSize="@dimen/scheduleTitleConferencia"
+                            android:layout_marginLeft="@dimen/marginSchedule"
+                            android:layout_marginBottom="@dimen/marginImageHome"
+                            android:textStyle="bold"
+                            android:textColor="@color/colorAccent"
+                            android:layout_centerInParent="true"
+                            android:gravity="center"/>
                         <TextView
                             android:id="@+id/tvInfoConfHour"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="00:00"
+                            android:text="@string/speakerJobTitle"
                             android:textSize="@dimen/textSize"
                             android:textColor="@color/colorPrimary"
+                            android:layout_marginBottom="@dimen/marginImageHome"
                             android:gravity="center"/>
                         <TextView
                             android:id="@+id/tvInfoConfSpeaker"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="Nombre expositor"
+                            android:text="@string/speakerJob"
                             android:textSize="@dimen/scheduleTitleAmPm"
                             android:textStyle="bold"
                             android:textColor="@color/colorPrimary"
                             android:gravity="center"/>
 
-                        <TextView
-                            android:id="@+id/tvInfoConfTag"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:text="tag"
-                            android:textSize="@dimen/textSize"
-                            android:textColor="@color/colorPrimary"
-                            android:gravity="center"/>
+                        <ImageView
+                            android:layout_width="@dimen/speakerTwitterImage"
+                            android:layout_height="@dimen/speakerTwitterImage"
+                            android:src="@drawable/ic_icons_twitter__1_"
+                            android:layout_gravity="center"/>
+
                         <TextView
                             android:id="@+id/tvInfoConfInfo"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="Aqui se dara informacion sobre la conferencia"
+                            android:text="@string/speakerLoreIp"
                             android:layout_marginTop="@dimen/marginScheduleDialog"
                             android:textSize="@dimen/textSize"
-                            android:textColor="@color/colorPrimary"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textStyle="italic"
                             android:gravity="center"/>
 
 
