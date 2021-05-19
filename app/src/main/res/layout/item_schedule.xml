@@ -39,6 +39,7 @@
             android:layout_weight="3"
             android:orientation="vertical">
             <TextView
+                android:id="@+id/tvItemScheduleConferencetitle"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/ScheduleExpositorTitulo"
@@ -46,12 +47,23 @@
                 android:layout_marginLeft="@dimen/marginSchedule"
                 android:textStyle="bold"/>
             <TextView
+                android:id="@+id/tvItemScheduleConferenceSpeaker"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/scheduleExpositorNombre"
                 android:textSize="@dimen/scheduleTitleNombre"
                 android:layout_marginLeft="@dimen/marginSchedule"
                 android:textStyle="bold"/>
+            <TextView
+                android:id="@+id/tvItemScheduleConferencetopic"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/scheduleTopic"
+                android:textSize="@dimen/scheduleTag"
+                android:layout_marginLeft="@dimen/marginSchedule"
+                android:background="@drawable/shapae_topico"
+                />
+
 
         </LinearLayout>
     </LinearLayout>

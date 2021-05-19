@@ -24,6 +24,7 @@ Porque en esta versión todo girará al rededor de la pregunta: ¿Qué habilidad
     <string name="scheduleLocation">Ubicacion del lugar</string>
     <string name="schedulePhoneNumber">Telefono del lugar</string>
     <string name="scheduleWebSite">Sitio del lugar</string>
+    <string name="scheduleTopic">Tag</string>
 
     <string name="speakerExpositorNombre">Nombre expositor</string>
     <string name="speakerJobTitle">Job Title</string>

@@ -37,6 +37,16 @@
             android:textSize="@dimen/textSizeJobSpeaker"
             android:gravity="center"
             android:layout_marginTop="@dimen/marginTextJob"/>
+        <TextView
+            android:id="@+id/tvItemScheduleConferencetopic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/scheduleTopic"
+            android:layout_gravity="center"
+            android:textSize="@dimen/scheduleTag"
+            android:layout_marginTop="@dimen/marginSchedule"
+            android:background="@drawable/shapae_topico"
+            />
 
 
 
